@@ -1,0 +1,16 @@
+if &compatible
+  set nocompatible
+endif
+
+set incsearch
+set list
+set wildmenu
+set encoding=utf-8
+set number
+
+source ~/.vim/vimrc.dein
+source ~/.vim/vimrc.completion
+source ~/.vim/vimrc.colors
+source ~/.vim/vimrc.indent
+
+filetype plugin indent on
