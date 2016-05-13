@@ -7,6 +7,11 @@ set list
 set wildmenu
 set encoding=utf-8
 set number
+set laststatus=2
+let g:airline_powerline_fonts = 1
+let g:airline#extensions#tabline#enabled = 1
+let g:airline#extensions#tabline#left_sep = ' '
+let g:airline#extensions#tabline#left_alt_sep = '|'
 
 source ~/.vim/vimrc.dein
 source ~/.vim/vimrc.colors
